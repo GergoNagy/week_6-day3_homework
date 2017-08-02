@@ -2,13 +2,13 @@ import static org.junit.Assert.*;
 import org.junit.*;
 import driver_management.*;
 
-public class DodgemCarTest{
+public class DodgemCarTest {
 
   DodgemCar car;
 
   @Before
   public void before(){
-    car = new DodgemCar(10);
+    car = new DodgemCar(10, 2);
   }
 
   @Test
