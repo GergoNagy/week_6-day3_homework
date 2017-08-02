@@ -13,4 +13,13 @@ public class Driver {
   public String getName(){
     return this.name;
   }
+
+  public Driveable getDrive(){
+    return this.drive;
+  }
+
+  public Driveable driveTime(){
+    return this.drive.driveTime();
+  }
+
 }

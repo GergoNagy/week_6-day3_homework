@@ -14,4 +14,8 @@ public class QuadBike implements Driveable {
     return distance/this.averageSpeed;
   }
 
+  public int averageSpeed(){
+    return this.averageSpeed;
+  }
+
 }
