@@ -1,4 +1,4 @@
-package behaviours.*;
+package behaviours;
 
 
 public interface Driveable {
