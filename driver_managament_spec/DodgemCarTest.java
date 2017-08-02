@@ -13,6 +13,6 @@ public class DodgemCarTest{
 
   @Test
   public void driveDistanceReturnsTime(){
-    assertEquals(1, car.driveDistance(10));
+    assertEquals(1, car.driveTime(10));
   }
 }

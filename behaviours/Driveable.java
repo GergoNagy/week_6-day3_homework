@@ -2,5 +2,5 @@ package behaviours;
 
 
 public interface Driveable {
-  int driveDistance(int distance);
+  int driveTime(int distance);
 }

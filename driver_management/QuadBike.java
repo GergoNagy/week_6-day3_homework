@@ -1,11 +1,13 @@
 package driver_management;
 import behaviours.*;
 
-public class DodgemCar implements Driveable {
+public class QuadBike implements Driveable {
   private int averageSpeed;
+  private int engineCapacity;
 
-  public DodgemCar(int averageSpeed){
+  public QuadBike(int averageSpeed, int engineCapacity){
     this.averageSpeed = averageSpeed;
+    this.engineCapacity = engineCapacity;
   }
 
   public int driveTime(int distance){
