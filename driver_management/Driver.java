@@ -18,8 +18,8 @@ public class Driver {
     return this.drive;
   }
 
-  public Driveable driveTime(){
-    return this.drive.driveTime();
+  public int driveTime(int distance){
+    return this.drive.driveTime(distance);
   }
 
 }

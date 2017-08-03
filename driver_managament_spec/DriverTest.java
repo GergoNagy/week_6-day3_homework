@@ -27,7 +27,6 @@ public class DriverTest {
 
   @Test
   public void  hasDriveTime(){
-    // QuadBike bike = (QuadBike) driver.getDrive();
     assertEquals(10, bike.driveTime(100));
   }
 
